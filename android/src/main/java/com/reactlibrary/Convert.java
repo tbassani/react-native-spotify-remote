@@ -30,7 +30,7 @@ public class Convert {
 
             switch (response.getType()) {
                 case TOKEN:
-                    map.putString("accessToken", response.getAccessToken());
+                    map.putString("accessToken", response.getCode());
                     break;
             
                 case CODE:
